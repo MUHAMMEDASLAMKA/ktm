@@ -1,0 +1,436 @@
+@font-face {
+    font-family:blender probold;
+    src: url(fonts/fonnts.com-Blender_Pro_Bold.ttf);
+  
+}
+@font-face {
+    font-family: blender proheavy;
+    src: url(fonts/fonnts.com-Blender_Pro_Heavy.ttf);
+}
+@font-face {
+    font-family: trade gothic;
+    src: url(fonts/trade-gothic-lt-std-58a78e64434a9.otf);
+}
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    left: 0;
+   
+
+}
+.header-left{
+    display: flex;
+
+}
+.ktm{
+    
+    height: 145px;
+    margin-right: 38px;
+
+
+}
+.header-titles{
+    margin-top: 61px;
+    text-transform: uppercase;
+    font-family: blender probold;
+    font-size: 20px;
+    margin-left: 34px;
+    color: #fff
+
+}
+.globe{
+    margin-right: 41px;
+    margin-bottom: 52px;
+    height: 31px;
+    color: #f60;
+}
+.location{
+        height: 31px;
+    color: #f60;
+    margin-bottom: 48px;
+    margin-right: 12px;
+}
+.bg-img{
+    width: 100%;
+    height: 99vh;
+    overflow: hidden;
+    object-fit: cover;
+   
+ 
+}
+.image-container{
+    position: relative;
+    
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 99vh;
+}
+.image-container-buttons{
+    margin-top: 205px;
+}
+.image-button{
+    height: 1px;
+    width: 42px;
+    margin-left: 1px;
+}
+
+.ad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-container-text{
+    position: absolute;
+    
+    margin-top: 200px;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.never-stop{
+    font-size: 24px;
+    color: #fff;
+    font-family: blender probold;
+    margin-top: 118px;
+    display: flex;
+
+
+}
+.ktm-rc{
+    color: #fff;
+    font-family: blender proheavy;
+    font-size: 87px;
+    
+    display: flex;
+    
+}  
+.configurator-container{
+    
+    position: relative;
+    text-align: center;
+    margin-top: 78px;
+    height: 405px;
+    width: 1439px;
+    display: flex;
+    align-items: center;
+    background-size: contain ;
+    margin-left: 42px;
+    justify-content: center;
+    cursor: pointer;
+}
+.configurator-text{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    transition-duration: 500ms;
+    color: #fff;
+    
+}
+.ktm-configurator{
+    font-family: blender probold;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
+.configure-the-bike{
+    font-family: blender proheavy;
+    text-transform: uppercase;
+    font-size: 84.5px;
+    margin: -5px;
+    
+}
+.configurator-container:hover .configurator-text{
+    color: transparent;
+    
+    
+}
+.main-block-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 21px;
+    padding-right: 14px;
+    margin-top: 80px;
+
+}
+.main-block-one-one{
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.block-image{
+    height: 350px;
+
+}
+.block-tag{
+    font-size: 18px;
+    font-family: blender probold;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.bike-model{
+    font-family: blender proheavy;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 5ox;
+
+    
+}
+.main-block-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 39px;
+    padding-right: 32px;
+    margin-top: 80px;
+   
+
+}
+.main-block-two-one{
+    display: flex;
+    flex-direction: column;
+
+}
+.block-image-two{
+    height: 448px;
+
+}
+.block-tag-two{
+    font-size: 18px;
+    font-family: blender probold;
+    
+    margin-top: 25px;
+
+}
+.bike-model-two{
+    font-family: blender proheavy;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-top: 17px;
+
+}
+.block-two-content{
+    font-size: 18px;
+    font-family:trade gothic;
+    line-height: 33px;
+    margin-top: 23px;
+
+}
+sup{
+    font-size: 22px; 
+    vertical-align: 9px;
+    margin-top: 25px;
+}
+.instagram-container{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;;
+    
+}
+.instagram-images{
+    display: flex;
+    flex-direction: column;
+}
+.instagram-images-col-one{
+    display: flex;
+    flex-direction: row;
+
+} 
+.instagram-images-col-two{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.instagram{
+    height: 540px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.instagram-image-box{
+    width: 363px;
+    height: 270px;
+}
+.instagram-image{
+    
+    object-position:center ;
+    object-fit: cover;
+    bottom: 0;
+   
+    width: 363px;
+    height: 270px;
+    
+  
+}
+.instagram-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.findus{
+    color: #fff;
+    font-size: 50px;
+    font-family: blender proheavy;
+    text-transform: uppercase;
+}
+.dailydose{
+    color: rgb(189, 189, 189);
+    font-family: trade gothic;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.line-one{
+    width: 70px;
+}
+.instagram-button{
+    font-size: 16px;
+    font-family: trade gothic;
+    font-weight: 900;
+    height: 71px;
+    width: 183px;
+    margin-top: 54px;
+    background-color: black;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: ponter;
+}
+
+svg{
+    margin-bottom: -7px;
+    margin-right: 10px;
+    
+}
+.instagram-button:hover{
+    color: orangered;
+    border-color: rgb(231, 76, 20);
+}
+.instagrambutton:hover svg path{
+    color:  rgb(231, 76, 20);
+}.newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+.newsletter-left{
+    font-family:blender probold;
+    text-transform: uppercase;
+    font-size: 23px;
+
+
+}
+.newsletter-button{
+    height: 77px;
+    width: 174px;
+    font-size: 20px;
+    font-family: blender probold;
+    color: #f60;
+    background-color: #fff;
+    border: 0.8px solid #f60;
+    margin-left: 20px;
+    cursor: pointer;
+
+
+
+}
+.line-two{
+    margin-top: 80px;
+
+}
+.brief{
+    text-align: center;
+    color: rgb(189, 189, 189);
+    font-size: 13.5px;
+    font-family: trade gothic;
+    line-height: 25.5px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 100px;
+    margin-top: 55px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-main{
+    display: flex;
+    flex-direction: column;
+}
+.footer-heading{
+    font-size: 24px;
+    font-family: blender proheavy;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: text;
+}
+.footer-words{
+    font-size: 18px;
+    font-family: trade gothic;
+    margin-top: 15px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.footer-words:hover{
+    color:rgb(255, 102, 0)
+}
+.footer-down{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 34px;
+
+}
+.arrow{
+    height: 30px;
+
+    
+}
+.footer-right{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.copyright{
+    color: rgb(189, 189, 189);
+    font-size: 13.5px;
+    font-family: trade gothic;
+
+}
+.back-to-top{
+    font-size: 20px;
+    font-family: blender proheavy;
+    color: rgb(255, 102, 0);
+    text-transform: uppercase;
+    margin-right: 16px;
+    margin-top: 5px;
+}
+.line-three{
+    width: 100%;
+    margin-top: 48px;
+    height: .01px;
+}.social-icons{
+    margin-top: 28px;
+    cursor: pointer;
+
+}
